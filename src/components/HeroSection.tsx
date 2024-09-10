@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import styles from '../../styles/HeroSection.module.css';
+import styles from '../styles/HeroSection.module.css';
 
 const slides = [
   {

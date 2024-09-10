@@ -1,6 +1,6 @@
-import HeroSection from './components/HeroSection'
-import ServiceSection from './components/ServiceSection'
-import TestimonialsSection from './components/TestimonialsSection'
+import HeroSection from '../components/HeroSection'
+import ServiceSection from '../components/ServiceSection'
+import TestimonialsSection from '../components/TestimonialsSection'
 
 export const metadata = {
   title: 'Betec - Industrial Solutions',

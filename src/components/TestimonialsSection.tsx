@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import styles from '../../styles/TestimonialsSection.module.css';
+import styles from '../styles/TestimonialsSection.module.css';
 
 const testimonials = [
   {

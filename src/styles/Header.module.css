@@ -1,20 +1,30 @@
 .header {
-    background-color: var(--background-color);
-    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 1rem 0;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    z-index: 1000;
+  }
+  
+  .headerScrolled {
+    background-color: rgba(255, 255, 255, 0.9);
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   }
   
   .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
   }
   
   .logo {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bold;
     color: var(--primary-color);
     text-decoration: none;
@@ -22,7 +32,7 @@
   
   .nav {
     display: flex;
-    gap: 20px;
+    gap: 1.5rem;
   }
   
   .navLink {
@@ -34,4 +44,16 @@
   
   .navLink:hover {
     color: var(--primary-color);
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .nav {
+      margin-top: 1rem;
+      flex-wrap: wrap;
+    }
   }

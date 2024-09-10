@@ -1,0 +1,123 @@
+.servicesContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .hero {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    color: var(--text-color);
+  }
+  
+  .servicesList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-bottom: 4rem;
+  }
+  
+  .serviceItem {
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 1rem;
+  }
+  
+  .serviceItem h2 {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin: 1rem 0;
+  }
+  
+  .serviceItem p {
+    margin-bottom: 1rem;
+    color: var(--text-color);
+  }
+  
+  .learnMore {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .learnMore:hover {
+    background-color: #C01011;
+  }
+  
+  .processOverview {
+    margin-bottom: 4rem;
+  }
+  
+  .processOverview h2 {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .processSteps {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .processStep {
+    flex-basis: calc(50% - 1rem);
+    text-align: center;
+  }
+  
+  .stepNumber {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    line-height: 40px;
+    margin-bottom: 1rem;
+  }
+  
+  .cta {
+    background-color: #f5f5f5;
+    padding: 3rem;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 4rem;
+  }
+  
+  .cta h2 {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+  }
+  
+  .ctaButton {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .ctaButton:hover {
+    background-color: #C01011;
+  }

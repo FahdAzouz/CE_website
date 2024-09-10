@@ -1,6 +1,6 @@
 'use client';  // Add this at the top of the file
 
-import styles from '../../styles/ServiceSection.module.css';
+import styles from '../styles/ServiceSection.module.css';
 
 const services = [
   {
